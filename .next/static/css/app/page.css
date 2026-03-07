@@ -1,0 +1,218 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./components/PasswordBox.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************/
+.pswdbox_label {
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: 6px;
+    padding: 0 10px 2px 10px;
+}
+
+.pswdbox {
+    box-sizing: border-box;
+    text-align: left;
+    background: #fff;
+    border: 2px solid #0A0F0D;
+    font-size: 22px;
+    /* border-radius:3px; */
+    padding: 12px 16px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    box-shadow: 8px 8px 1px 0px rgba(209,197,209,0.5);
+}
+
+.pswdbox:hover{
+    box-shadow: 10px 10px 1px 0px rgba(209,197,209,0.6);
+}
+.pswdbox:focus-within{
+    border: 2px solid #533ea5;
+    outline:none;
+}
+
+.psswd_len {
+    text-align: right;
+    margin: 3px 5px 10px 0px;
+    float: right;
+}
+/*!******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./components/RuleBox.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************/
+.rulebox {
+    border-radius: 0px;
+    text-align: left;
+    font-size: 16px;
+    margin: 22px auto;
+    overflow: hidden;
+
+    /* background-color: #ffdce0; */
+    background-color: #ffeced;
+    border: 2px solid #CE273D;
+    box-shadow: 8px 8px 1px 0px rgba(222, 184, 189, 0.4);
+
+    transition: background-color 0.5s;
+}
+.rulebox:hover {
+    box-shadow: 10px 10px 1px 0px rgba(222, 184, 189, 0.5);
+}
+.rulebox-top {
+    padding: 5px 16px 8px 8px;
+
+    background-color: #fabac4;
+    color: #a11a2c;
+    font-weight: bold;
+    font-size: 15px;
+
+    transition: background-color 0.5s;
+}
+
+.rulebox-desc {
+    padding: 11px 17px 15px 11px;
+}
+
+.rulebox.rule-correct {
+    background-color: #deffce;
+    border: 2px solid #52A22A;
+    box-shadow: 8px 8px 1px 0px rgba(167, 187, 157, 0.4);
+}
+.rulebox.rule-correct:hover {
+    box-shadow: 10px 10px 1px 0px rgba(167, 187, 157, 0.5);
+}
+.rulebox-top.rule-correct {
+    background-color: #b4ea99;
+    color: #32621a;
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./rules/RuleSlidingPuzzle/RuleSlidingPuzzle.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************/
+.sliding_puzzle{
+    display: grid;
+    grid-template-columns: repeat(3, 62px);
+    grid-gap: 8px;
+    gap: 8px;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.puzzle_piece{
+    border: 2px solid #6f6f6f;
+    width: 62px;
+    height: 62px;
+}
+.puzzle_piece:hover{
+    box-shadow: rgba(0, 0, 0, 0.28) 1px 4px 6px;
+    cursor: pointer;
+}
+.puzzle_piece.blank_piece{
+    box-shadow: none;
+    border: none;
+}
+
+.puzzle_piece_wrapper{
+    position: relative;
+    box-sizing: border-box;
+    width: 62px;
+    height: 62px;
+    
+}
+
+.puzzle_piece_num{
+    font-size: 14px;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    background-color: rgba(253, 246, 43, 0.63);
+    padding: 1px 4px 1px 4px;
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./components/ReloadButton.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+.ReloadButton_reload_button__usRo8{
+    margin-left: auto;
+    padding:3px;
+    /* position: relative; */
+    display: grid;
+    grid-template-columns: auto 14px;
+}
+.ReloadButton_reload_button__usRo8:hover{
+    cursor: pointer;
+    transform: scale(1.08);
+}
+.ReloadButton_reloads_left__EKB_5{
+    font-size: 14px;
+    font-weight: bold;
+    /* position: absolute;
+    right: 1px;
+    bottom: 1px; */
+    /* padding: 1px 2px 1px 2px; */
+    align-self: end;
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./rules/RuleRiddle/RuleRiddle.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************/
+.RuleRiddle_riddle_wrapper__mLpEO{
+    display: grid;
+    grid-template-columns: auto 50px;
+    align-items: center;
+    justify-content:space-between;
+    padding: 8px 8px 8px 15px;
+    margin-top: 8px;
+    grid-gap: 5px;
+    gap: 5px;
+}
+/*!************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./rules/RuleLocation/RuleLocation.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************/
+.RuleLocation_location_wrapper__Ry5wa{
+    display: grid;
+    grid-template-columns: auto 50px;
+    align-items: center;
+    justify-content:space-between;
+    padding: 6px 6px 6px 12px;
+    margin-top: 8px;
+    grid-gap: 5px;
+    gap: 5px;
+}
+.RuleLocation_location__b26PL{
+    font-size: 17px;
+    font-weight: bold;
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./app/page.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************/
+.page_container__jZF7q{
+    width: 576px;
+    max-width: calc(100% - 20px);
+    margin: 0 auto;
+    padding: 5px;
+    min-height: calc(100vh - 50px);
+}
+
+.page_footer__F3MD0{
+    font-size: 12px;
+    width: 100%;
+    color: #151515;
+    text-align: center;
+    padding-bottom: 2px;
+}
+
+.page_title__po7na{
+    text-align: center;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 60px auto;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.page_title_text___QER_{
+    font-size: 28px;
+    font-weight: bold;
+    color: #533ea5;
+}
+.page_introduction__joBo5{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}

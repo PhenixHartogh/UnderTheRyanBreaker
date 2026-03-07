@@ -4,7 +4,7 @@
   "bboxMode":0,
   "bbox_bottom":171,
   "bbox_left":0,
-  "bbox_right":163,
+  "bbox_right":164,
   "bbox_top":0,
   "collisionKind":5,
   "collisionTolerance":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"ba97ada6-6ce1-4513-ab64-50bc10a6f89f","name":"ba97ada6-6ce1-4513-ab64-50bc10a6f89f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"53f76437-8b31-4200-a62c-a4fac7247b31","name":"53f76437-8b31-4200-a62c-a4fac7247b31","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":172,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"9b5752e6-fbdf-4cb1-ad52-3d89f268674f","blendMode":0,"displayName":"default","isLocked":false,"name":"9b5752e6-fbdf-4cb1-ad52-3d89f268674f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"6e3f0c79-9dd6-4718-a860-cac8fcb15546","blendMode":0,"displayName":"default","isLocked":false,"name":"6e3f0c79-9dd6-4718-a860-cac8fcb15546","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_rock_big",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ba97ada6-6ce1-4513-ab64-50bc10a6f89f","path":"sprites/spr_rock_big/spr_rock_big.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"fac56c31-a772-4848-8a30-60048a191488","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"53f76437-8b31-4200-a62c-a4fac7247b31","path":"sprites/spr_rock_big/spr_rock_big.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"4c24f334-4b7f-489f-852d-6cca9db8e13b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":164,
+  "width":165,
 }
